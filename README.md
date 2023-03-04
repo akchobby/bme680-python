@@ -1,3 +1,7 @@
+# Hover games 3
+
+Note this repo forked allow the data of BME688 to be read via the i2c interface on the NavQ board.
+
 # BME68x
 
 [![Build Status](https://travis-ci.org/pimoroni/bme680-python.svg?branch=master)](https://travis-ci.org/pimoroni/bme680-python)
