@@ -12,7 +12,7 @@ Press Ctrl+C to exit!
 try:
     sensor = bme680.BME680(bme680.I2C_ADDR_PRIMARY)
 except (RuntimeError, IOError):
-    sensor = bme680.BME680(bme680.I2C_ADDR_SECONDARY)
+    sensor = bme680.BME680(bme680.I2C_ADDR_SECONDARY, i2c_bus=5)
 
 # These calibration data can safely be commented
 # out, if desired.
