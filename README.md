@@ -1,7 +1,17 @@
 # Hover games 3
 
-Note this repo forked allow the data of BME688 to be read via the i2c interface on the NavQ board.
+This repo forked allow the data of BME688 to be read via the i2c interface on the NavQ board. 
 
+For installation *only follow the Development installation instructions*
+
+To test it, once the bme sensor is connected 
+run the example file read_all.py:
+
+```bash
+python3 read_all.py
+```
+
+The repo also contains a ROS 2 wrapper which is in WIP 
 # BME68x
 
 [![Build Status](https://travis-ci.org/pimoroni/bme680-python.svg?branch=master)](https://travis-ci.org/pimoroni/bme680-python)
