@@ -2,7 +2,7 @@
 
 This repo forked allow the data of BME688 to be read via the i2c interface on the NavQ board. 
 
-For installation *only follow the Development installation instructions*
+For installation **only follow the Development installation instructions**
 
 To test it, once the bme sensor is connected 
 run the example file read_all.py:
